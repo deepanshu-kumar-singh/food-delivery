@@ -8,6 +8,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/food")
+@CrossOrigin(origins = "http://localhost:3000")
 public class FoodItemController {
 
     private final FoodItemService foodItemService;
